@@ -216,7 +216,7 @@ p{margin:0;}
 @media (min-width:1100px){.portfolio-grid{grid-template-columns:repeat(4,1fr);}}
 .portfolio-card{border-radius:var(--radius-md);overflow:hidden;background:var(--charcoal);border:1px solid var(--line);transition:transform .35s var(--ease), border-color .35s var(--ease);}
 .portfolio-card:hover{transform:translateY(-6px);border-color:rgba(212,162,76,.4);}
-.portfolio-thumb{height:160px;}
+.portfolio-thumb{height:160px;width:100%;object-fit:cover;}
 .thumb-dental{background:linear-gradient(135deg,#2C2110,#0A0A0D);}
 .thumb-arch{background:linear-gradient(135deg,#1C1C24,#0A0A0D);}
 .thumb-resto{background:linear-gradient(135deg,#2E2410,#15110A);}
