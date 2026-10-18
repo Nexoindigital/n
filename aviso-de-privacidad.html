@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WH6B7T5L');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aviso de Privacidad — Nexo Digital</title>
@@ -14,6 +21,10 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body class="privacy-page">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH6B7T5L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <a class="skip-link" href="#privacyContent">Saltar al contenido</a>
 
 <header class="privacy-header">
@@ -100,5 +111,12 @@
     <p>© 2026 Nexo Digital. Todos los derechos reservados. <span><a href="index.html">Volver al sitio principal</a></span></p>
   </div>
 </footer>
+<script>
+  // Cada clic a WhatsApp se manda a Tag Manager como evento "contacto_whatsapp"
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href*="whatsapp"]');
+    if (a) (window.dataLayer = window.dataLayer || []).push({ event: 'contacto_whatsapp', link_text: (a.textContent||'').trim().slice(0,60), pagina: location.pathname });
+  });
+</script>
 </body>
 </html>
