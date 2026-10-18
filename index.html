@@ -12,6 +12,33 @@
 <meta property="og:description" content="Conectamos ideas con resultados mediante estrategia, tecnología y soluciones digitales a la medida.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_MX">
+<link rel="canonical" href="https://nexoindigital.github.io/n/">
+<meta property="og:url" content="https://nexoindigital.github.io/n/">
+<meta property="og:image" content="https://nexoindigital.github.io/n/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Google Search Console: pega aquí la etiqueta de verificación que te da Search Console -->
+<meta name="google-site-verification" content="dH_b0J0elVuzBJC8yvWB9eqj-UEundhjcNyojoXGQgM" />
+
+<!-- Google Analytics 4: escribe tu ID (G-XXXXXXXXXX) en GA_ID. Vacío = no se carga nada. -->
+<script>
+  window.GA_ID = '';
+  if (window.GA_ID) {
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA_ID; document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ dataLayer.push(arguments); };
+    gtag('js', new Date()); gtag('config', window.GA_ID);
+  }
+  // Cuenta cada clic a WhatsApp como "contacto" en Analytics
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href*="whatsapp"]');
+    if (a && window.gtag) gtag('event', 'contacto_whatsapp', { link_text: (a.textContent||'').trim().slice(0,60) });
+  });
+</script>
+
 
 <script type="application/ld+json">
 {
