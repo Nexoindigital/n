@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /n/gracias.html
+
+Sitemap: https://nexoindigital.github.io/n/sitemap.xml

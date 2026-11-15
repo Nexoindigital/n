@@ -152,6 +152,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then((response) => {
           if (response.ok) {
             formSuccess.textContent = '¡Gracias! Tu mensaje fue enviado. Te contactaremos muy pronto.';
+            (window.dataLayer = window.dataLayer || []).push({ event: 'formulario_enviado' });
+            setTimeout(() => { window.location.href = 'gracias.html'; }, 600);
             form.reset();
             Object.keys(validators).forEach(name => {
               const field = form.elements[name];

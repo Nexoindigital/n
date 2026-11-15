@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nexoindigital.github.io/n/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://nexoindigital.github.io/n/aviso-de-privacidad.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://nexoindigital.github.io/n/catalogo/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/</loc><lastmod>2026-11-15</lastmod><priority>1.0</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/precios.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/consultoria-digital-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/marketing-digital-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/redes-sociales-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/google-maps-negocios-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/paginas-web-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/automatizacion-whatsapp-oaxaca.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/casos.html</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/notas/</loc><lastmod>2026-11-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/notas/info-por-inbox.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/notas/761-negocios-oaxaca-google-maps.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/notas/esta-muy-caro.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/notas/errores-ficha-de-google.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/catalogo/</loc><lastmod>2026-11-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://nexoindigital.github.io/n/aviso-de-privacidad.html</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority></url>
 </urlset>
