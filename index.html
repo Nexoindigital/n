@@ -49,6 +49,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     (window.dataLayer = window.dataLayer || []).push({ event: 'contacto_whatsapp', link_text: (a.textContent||'').trim().slice(0,60), pagina: location.pathname });
     if (window.gtag) gtag('event', 'contacto_whatsapp', { link_text: (a.textContent||'').trim().slice(0,60) });
   });
+// Cuenta los clics a planes y notas como "ver_plan"
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[data-plan]');
+    if (!a || /wa\.me|whatsapp/.test(a.href)) return;
+    (window.dataLayer = window.dataLayer || []).push({ event: 'ver_plan', plan: a.dataset.plan, pagina: location.pathname });
+  });
 </script>
 
 
@@ -548,6 +554,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </div>
   </section>
+
+
 
 
   <!-- ===================== NOTAS (inicio) ===================== -->
